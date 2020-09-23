@@ -63,15 +63,11 @@ body{
 
 .bottom{
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 2fr;
 
     margin: 5px;
 
     text-align: center;
-}
-
-.bottom h4{
-    /* color: blue; */
 }
 
 
@@ -86,7 +82,8 @@ body{
     appearance: button;
 
     width:70%;
-    height: 90%;
+    height: 85%;
+    margin-bottom: 10px;
 }
 
 a{
@@ -100,5 +97,6 @@ a{
     color:white;
     text-align: center;
     margin-top: 10px;
+
 }
 
